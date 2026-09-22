@@ -192,7 +192,32 @@ python run.py
 
 ---
 
-## 10. API Endpoints Reference
+## 10. Deploy to Render (render.com)
+
+You can deploy AutoMileage AI to **Render** as a live cloud application:
+
+### Quick Deploy via Render Blueprints (Recommended)
+1. Log in to your [Render Dashboard](https://dashboard.render.com).
+2. Click **New +** $\rightarrow$ **Blueprint**.
+3. Connect your GitHub repository: `Abhinaiinjeti/Car_Mileage_PBL`.
+4. Render will automatically detect [`render.yaml`](file:///c:/Car_Mileage_PBL/render.yaml) and configure the build and start commands.
+5. Click **Apply**. Render will install dependencies, build the React frontend, train the model, and launch the service!
+
+### Manual Deploy on Render (Web Service)
+1. In Render, click **New +** $\rightarrow$ **Web Service**.
+2. Select your repository `Abhinaiinjeti/Car_Mileage_PBL`.
+3. Configure the settings:
+   - **Environment:** `Python 3` (or choose `Docker` for containerized deploy)
+   - **Build Command:** `./build.sh`
+   - **Start Command:** `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
+   - **Plan:** Free
+4. Click **Create Web Service**.
+
+Your application will be live at a public URL like `https://automileage-ai.onrender.com`!
+
+---
+
+## 11. API Endpoints Reference
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
