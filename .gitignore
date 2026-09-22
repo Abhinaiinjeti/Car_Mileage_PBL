@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Data & Models (large binaries generated automatically by download_data.py / train_model.py)
+backend/data/vehicles.csv
+backend/data/vehicles.csv.zip
+backend/data/*.db
+backend/model/*.pkl
+
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

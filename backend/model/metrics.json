@@ -1,0 +1,532 @@
+{
+  "algorithm": "Random Forest Regressor",
+  "n_estimators": 100,
+  "max_depth": 22,
+  "total_records": 50409,
+  "train_samples": 40327,
+  "test_samples": 10082,
+  "metrics": {
+    "mae": 1.13,
+    "rmse": 2.52,
+    "r2_score": 0.9676
+  },
+  "feature_importances": [
+    {
+      "feature": "Engine Displacement (displ)",
+      "importance": 68.04
+    },
+    {
+      "feature": "Engine Cylinders",
+      "importance": 22.97
+    },
+    {
+      "feature": "Model Year",
+      "importance": 2.58
+    },
+    {
+      "feature": "Vehicle Class (VClass)",
+      "importance": 2.21
+    },
+    {
+      "feature": "Transmission (trany)",
+      "importance": 1.75
+    },
+    {
+      "feature": "Drive Type (drive)",
+      "importance": 1.48
+    },
+    {
+      "feature": "Fuel Type (fuelType1)",
+      "importance": 0.97
+    }
+  ],
+  "actual_vs_predicted_samples": [
+    {
+      "vehicle": "1986 Rolls-Royce Camargue",
+      "actual_mpg": 8.0,
+      "predicted_mpg": 8.1,
+      "actual_kmpl": 3.4,
+      "predicted_kmpl": 3.44,
+      "error": 0.1
+    },
+    {
+      "vehicle": "1989 Dodge W100/W150 Pickup 4WD",
+      "actual_mpg": 12.0,
+      "predicted_mpg": 11.5,
+      "actual_kmpl": 5.1,
+      "predicted_kmpl": 4.89,
+      "error": 0.5
+    },
+    {
+      "vehicle": "1984 Ford F150 Pickup 4WD",
+      "actual_mpg": 13.0,
+      "predicted_mpg": 12.9,
+      "actual_kmpl": 5.53,
+      "predicted_kmpl": 5.48,
+      "error": 0.1
+    },
+    {
+      "vehicle": "2002 Chevrolet Suburban 1500 4WD",
+      "actual_mpg": 13.0,
+      "predicted_mpg": 13.7,
+      "actual_kmpl": 5.53,
+      "predicted_kmpl": 5.82,
+      "error": 0.7
+    },
+    {
+      "vehicle": "2005 GMC Yukon 1500 AWD",
+      "actual_mpg": 14.0,
+      "predicted_mpg": 14.5,
+      "actual_kmpl": 5.95,
+      "predicted_kmpl": 6.16,
+      "error": 0.5
+    },
+    {
+      "vehicle": "2000 Ford F150 Pickup 4WD",
+      "actual_mpg": 14.0,
+      "predicted_mpg": 13.9,
+      "actual_kmpl": 5.95,
+      "predicted_kmpl": 5.91,
+      "error": 0.1
+    },
+    {
+      "vehicle": "2009 Audi R8",
+      "actual_mpg": 15.0,
+      "predicted_mpg": 15.7,
+      "actual_kmpl": 6.38,
+      "predicted_kmpl": 6.67,
+      "error": 0.7
+    },
+    {
+      "vehicle": "2015 Mercedes-Benz C63 AMG Coupe",
+      "actual_mpg": 15.0,
+      "predicted_mpg": 17.2,
+      "actual_kmpl": 6.38,
+      "predicted_kmpl": 7.31,
+      "error": 2.2
+    },
+    {
+      "vehicle": "2008 Ford F150 Pickup 2WD FFV",
+      "actual_mpg": 15.0,
+      "predicted_mpg": 14.5,
+      "actual_kmpl": 6.38,
+      "predicted_kmpl": 6.16,
+      "error": 0.5
+    },
+    {
+      "vehicle": "2001 Toyota Tundra 2WD",
+      "actual_mpg": 16.0,
+      "predicted_mpg": 17.5,
+      "actual_kmpl": 6.8,
+      "predicted_kmpl": 7.44,
+      "error": 1.5
+    },
+    {
+      "vehicle": "1998 GMC Sierra 1500 4WD",
+      "actual_mpg": 16.0,
+      "predicted_mpg": 16.0,
+      "actual_kmpl": 6.8,
+      "predicted_kmpl": 6.8,
+      "error": 0.0
+    },
+    {
+      "vehicle": "1995 Mercedes-Benz SL500",
+      "actual_mpg": 16.0,
+      "predicted_mpg": 15.7,
+      "actual_kmpl": 6.8,
+      "predicted_kmpl": 6.67,
+      "error": 0.3
+    },
+    {
+      "vehicle": "2024 Mercedes-Benz AMG GLE63 S 4matic Plus Coupe",
+      "actual_mpg": 16.0,
+      "predicted_mpg": 16.2,
+      "actual_kmpl": 6.8,
+      "predicted_kmpl": 6.89,
+      "error": 0.2
+    },
+    {
+      "vehicle": "2006 Volvo XC90 AWD",
+      "actual_mpg": 17.0,
+      "predicted_mpg": 18.4,
+      "actual_kmpl": 7.23,
+      "predicted_kmpl": 7.82,
+      "error": 1.4
+    },
+    {
+      "vehicle": "2008 GMC Sierra C15 2WD",
+      "actual_mpg": 17.0,
+      "predicted_mpg": 16.5,
+      "actual_kmpl": 7.23,
+      "predicted_kmpl": 7.01,
+      "error": 0.5
+    },
+    {
+      "vehicle": "2012 BMW 550i xDrive Gran Turismo",
+      "actual_mpg": 17.0,
+      "predicted_mpg": 18.5,
+      "actual_kmpl": 7.23,
+      "predicted_kmpl": 7.87,
+      "error": 1.5
+    },
+    {
+      "vehicle": "2005 Chevrolet Blazer 2WD",
+      "actual_mpg": 17.0,
+      "predicted_mpg": 16.4,
+      "actual_kmpl": 7.23,
+      "predicted_kmpl": 6.97,
+      "error": 0.6
+    },
+    {
+      "vehicle": "2019 Audi A8 L",
+      "actual_mpg": 18.0,
+      "predicted_mpg": 19.9,
+      "actual_kmpl": 7.65,
+      "predicted_kmpl": 8.46,
+      "error": 1.9
+    },
+    {
+      "vehicle": "1994 Nissan 300ZX",
+      "actual_mpg": 18.0,
+      "predicted_mpg": 18.2,
+      "actual_kmpl": 7.65,
+      "predicted_kmpl": 7.74,
+      "error": 0.2
+    },
+    {
+      "vehicle": "1994 Acura Legend",
+      "actual_mpg": 18.0,
+      "predicted_mpg": 18.3,
+      "actual_kmpl": 7.65,
+      "predicted_kmpl": 7.78,
+      "error": 0.3
+    },
+    {
+      "vehicle": "2002 Toyota Tacoma 2WD",
+      "actual_mpg": 18.0,
+      "predicted_mpg": 18.0,
+      "actual_kmpl": 7.65,
+      "predicted_kmpl": 7.65,
+      "error": 0.0
+    },
+    {
+      "vehicle": "2002 Mercedes-Benz S430",
+      "actual_mpg": 18.0,
+      "predicted_mpg": 18.6,
+      "actual_kmpl": 7.65,
+      "predicted_kmpl": 7.91,
+      "error": 0.6
+    },
+    {
+      "vehicle": "2012 Lexus LS 460",
+      "actual_mpg": 19.0,
+      "predicted_mpg": 18.8,
+      "actual_kmpl": 8.08,
+      "predicted_kmpl": 7.99,
+      "error": 0.2
+    },
+    {
+      "vehicle": "1991 Ford Taurus SHO",
+      "actual_mpg": 19.0,
+      "predicted_mpg": 19.2,
+      "actual_kmpl": 8.08,
+      "predicted_kmpl": 8.16,
+      "error": 0.2
+    },
+    {
+      "vehicle": "1999 Volvo V70 AWD",
+      "actual_mpg": 19.0,
+      "predicted_mpg": 19.0,
+      "actual_kmpl": 8.08,
+      "predicted_kmpl": 8.08,
+      "error": 0.0
+    },
+    {
+      "vehicle": "1993 Dodge Stealth",
+      "actual_mpg": 19.0,
+      "predicted_mpg": 17.9,
+      "actual_kmpl": 8.08,
+      "predicted_kmpl": 7.61,
+      "error": 1.1
+    },
+    {
+      "vehicle": "1985 Oldsmobile Ninety-Eight Regency",
+      "actual_mpg": 19.0,
+      "predicted_mpg": 18.1,
+      "actual_kmpl": 8.08,
+      "predicted_kmpl": 7.7,
+      "error": 0.9
+    },
+    {
+      "vehicle": "2010 Chevrolet Equinox FWD",
+      "actual_mpg": 20.0,
+      "predicted_mpg": 20.6,
+      "actual_kmpl": 8.5,
+      "predicted_kmpl": 8.76,
+      "error": 0.6
+    },
+    {
+      "vehicle": "2001 Saturn LW300",
+      "actual_mpg": 20.0,
+      "predicted_mpg": 19.0,
+      "actual_kmpl": 8.5,
+      "predicted_kmpl": 8.08,
+      "error": 1.0
+    },
+    {
+      "vehicle": "2001 Toyota Camry Solara",
+      "actual_mpg": 20.0,
+      "predicted_mpg": 19.9,
+      "actual_kmpl": 8.5,
+      "predicted_kmpl": 8.46,
+      "error": 0.1
+    },
+    {
+      "vehicle": "1989 Volkswagen Cabriolet",
+      "actual_mpg": 20.0,
+      "predicted_mpg": 22.2,
+      "actual_kmpl": 8.5,
+      "predicted_kmpl": 9.44,
+      "error": 2.2
+    },
+    {
+      "vehicle": "1988 Subaru Sedan/3Door 4WD Turbo",
+      "actual_mpg": 21.0,
+      "predicted_mpg": 20.8,
+      "actual_kmpl": 8.93,
+      "predicted_kmpl": 8.84,
+      "error": 0.2
+    },
+    {
+      "vehicle": "2002 Mazda Tribute 4WD",
+      "actual_mpg": 21.0,
+      "predicted_mpg": 20.8,
+      "actual_kmpl": 8.93,
+      "predicted_kmpl": 8.84,
+      "error": 0.2
+    },
+    {
+      "vehicle": "2023 Mercedes-Benz GLE350 4matic",
+      "actual_mpg": 21.0,
+      "predicted_mpg": 23.7,
+      "actual_kmpl": 8.93,
+      "predicted_kmpl": 10.08,
+      "error": 2.7
+    },
+    {
+      "vehicle": "1987 Jeep Cherokee 2WD",
+      "actual_mpg": 21.0,
+      "predicted_mpg": 18.9,
+      "actual_kmpl": 8.93,
+      "predicted_kmpl": 8.04,
+      "error": 2.1
+    },
+    {
+      "vehicle": "2020 Mercedes-Benz GLS450 4matic",
+      "actual_mpg": 21.0,
+      "predicted_mpg": 19.6,
+      "actual_kmpl": 8.93,
+      "predicted_kmpl": 8.33,
+      "error": 1.4
+    },
+    {
+      "vehicle": "2018 Ford F150 Pickup 2WD",
+      "actual_mpg": 22.0,
+      "predicted_mpg": 21.6,
+      "actual_kmpl": 9.35,
+      "predicted_kmpl": 9.18,
+      "error": 0.4
+    },
+    {
+      "vehicle": "1988 Plymouth Caravelle",
+      "actual_mpg": 22.0,
+      "predicted_mpg": 22.3,
+      "actual_kmpl": 9.35,
+      "predicted_kmpl": 9.48,
+      "error": 0.3
+    },
+    {
+      "vehicle": "2019 Mercedes-Benz Metris (Cargo Van, LWB)",
+      "actual_mpg": 22.0,
+      "predicted_mpg": 21.6,
+      "actual_kmpl": 9.35,
+      "predicted_kmpl": 9.18,
+      "error": 0.4
+    },
+    {
+      "vehicle": "1984 Dodge 600",
+      "actual_mpg": 22.0,
+      "predicted_mpg": 21.0,
+      "actual_kmpl": 9.35,
+      "predicted_kmpl": 8.93,
+      "error": 1.0
+    },
+    {
+      "vehicle": "1994 Plymouth Colt Vista",
+      "actual_mpg": 23.0,
+      "predicted_mpg": 23.1,
+      "actual_kmpl": 9.78,
+      "predicted_kmpl": 9.82,
+      "error": 0.1
+    },
+    {
+      "vehicle": "2016 Porsche 911 Carrera 4",
+      "actual_mpg": 23.0,
+      "predicted_mpg": 22.5,
+      "actual_kmpl": 9.78,
+      "predicted_kmpl": 9.57,
+      "error": 0.5
+    },
+    {
+      "vehicle": "1995 Subaru Legacy Wagon",
+      "actual_mpg": 23.0,
+      "predicted_mpg": 20.7,
+      "actual_kmpl": 9.78,
+      "predicted_kmpl": 8.8,
+      "error": 2.3
+    },
+    {
+      "vehicle": "2013 Hyundai Genesis Coupe",
+      "actual_mpg": 24.0,
+      "predicted_mpg": 24.6,
+      "actual_kmpl": 10.2,
+      "predicted_kmpl": 10.46,
+      "error": 0.6
+    },
+    {
+      "vehicle": "1986 Pontiac 1000",
+      "actual_mpg": 24.0,
+      "predicted_mpg": 24.5,
+      "actual_kmpl": 10.2,
+      "predicted_kmpl": 10.42,
+      "error": 0.5
+    },
+    {
+      "vehicle": "2013 Ford Edge FWD",
+      "actual_mpg": 24.0,
+      "predicted_mpg": 24.4,
+      "actual_kmpl": 10.2,
+      "predicted_kmpl": 10.37,
+      "error": 0.4
+    },
+    {
+      "vehicle": "1984 Chevrolet Celebrity Wagon",
+      "actual_mpg": 25.0,
+      "predicted_mpg": 24.4,
+      "actual_kmpl": 10.63,
+      "predicted_kmpl": 10.37,
+      "error": 0.6
+    },
+    {
+      "vehicle": "1991 Suzuki Samurai Soft-top 4WD",
+      "actual_mpg": 25.0,
+      "predicted_mpg": 25.0,
+      "actual_kmpl": 10.63,
+      "predicted_kmpl": 10.63,
+      "error": 0.0
+    },
+    {
+      "vehicle": "2005 Acura RSX",
+      "actual_mpg": 26.0,
+      "predicted_mpg": 24.1,
+      "actual_kmpl": 11.05,
+      "predicted_kmpl": 10.25,
+      "error": 1.9
+    },
+    {
+      "vehicle": "1997 Pontiac Sunfire",
+      "actual_mpg": 26.0,
+      "predicted_mpg": 24.9,
+      "actual_kmpl": 11.05,
+      "predicted_kmpl": 10.59,
+      "error": 1.1
+    },
+    {
+      "vehicle": "1993 Mazda MX-3",
+      "actual_mpg": 27.0,
+      "predicted_mpg": 27.2,
+      "actual_kmpl": 11.48,
+      "predicted_kmpl": 11.56,
+      "error": 0.2
+    },
+    {
+      "vehicle": "2002 Chevrolet Prizm",
+      "actual_mpg": 27.0,
+      "predicted_mpg": 27.1,
+      "actual_kmpl": 11.48,
+      "predicted_kmpl": 11.52,
+      "error": 0.1
+    },
+    {
+      "vehicle": "2023 Volkswagen Taos 4motion",
+      "actual_mpg": 28.0,
+      "predicted_mpg": 27.6,
+      "actual_kmpl": 11.9,
+      "predicted_kmpl": 11.73,
+      "error": 0.4
+    },
+    {
+      "vehicle": "2015 Audi A7 quattro",
+      "actual_mpg": 29.0,
+      "predicted_mpg": 29.1,
+      "actual_kmpl": 12.33,
+      "predicted_kmpl": 12.37,
+      "error": 0.1
+    },
+    {
+      "vehicle": "2013 Ford Focus FWD",
+      "actual_mpg": 30.0,
+      "predicted_mpg": 27.3,
+      "actual_kmpl": 12.75,
+      "predicted_kmpl": 11.61,
+      "error": 2.7
+    },
+    {
+      "vehicle": "1985 Mercury Lynx Wagon",
+      "actual_mpg": 32.0,
+      "predicted_mpg": 29.0,
+      "actual_kmpl": 13.6,
+      "predicted_kmpl": 12.33,
+      "error": 3.0
+    },
+    {
+      "vehicle": "2019 Mitsubishi Mirage G4",
+      "actual_mpg": 35.0,
+      "predicted_mpg": 35.6,
+      "actual_kmpl": 14.88,
+      "predicted_kmpl": 15.14,
+      "error": 0.6
+    },
+    {
+      "vehicle": "2025 Toyota Corolla Hybrid AWD",
+      "actual_mpg": 48.0,
+      "predicted_mpg": 45.1,
+      "actual_kmpl": 20.41,
+      "predicted_kmpl": 19.17,
+      "error": 2.9
+    },
+    {
+      "vehicle": "2016 Tesla Model X AWD - P90D",
+      "actual_mpg": 89.0,
+      "predicted_mpg": 90.8,
+      "actual_kmpl": 37.84,
+      "predicted_kmpl": 38.6,
+      "error": 1.8
+    },
+    {
+      "vehicle": "2021 Tesla Model 3 Standard Range Plus RWD",
+      "actual_mpg": 142.0,
+      "predicted_mpg": 130.4,
+      "actual_kmpl": 60.37,
+      "predicted_kmpl": 55.44,
+      "error": 11.6
+    }
+  ],
+  "dataset_info": {
+    "source": "U.S. EPA / FuelEconomy.gov",
+    "year_min": 1984,
+    "year_max": 2027,
+    "total_makes": 146,
+    "total_models": 5684
+  }
+}
